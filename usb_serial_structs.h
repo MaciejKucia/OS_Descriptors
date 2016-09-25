@@ -75,7 +75,7 @@ typedef const struct __attribute__((__packed__)) {
 	const uint16_t wPropertyNameLength3;
 	const uint16_t bPropertyName3[6];
 	const uint32_t dwPropertyDataLength3;
-	const uint16_t bPropertyData3[37];
+	const uint16_t bPropertyData3[39];
 } g_sOSProperties;
 
 extern const g_sOSProperties g_pOSProperties;
